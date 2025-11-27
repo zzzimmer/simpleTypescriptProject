@@ -11,7 +11,14 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
+    "pg": "^8.16.3",
     "pug": "2.0.0-beta11",
+    "reflect-metadata": "^0.2.2",
     "typeorm": "^0.3.27"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   }
 }

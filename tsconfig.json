@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2016",             // Versão do JavaScript gerado
+    "module": "commonjs",           // Padrão do Node.js
+    "outDir": "./dist",             // Onde os arquivos .js compilados vão ficar
+    "rootDir": "./",                // Onde estão os arquivos fonte
+    "strict": true,                 // Ativa verificações rigorosas
+    "esModuleInterop": true,        // Ajuda na compatibilidade de módulos
+
+    // configuracões TypeORM
+    "experimentalDecorators": true, // Permite usar @Entity
+    "emitDecoratorMetadata": true,  // Permite o TypeORM ler os tipos
+    "strictPropertyInitialization": false // Permite criar variaveis sem inicializar no construtor
+  },
+  "exclude": ["node_modules"]
+}
