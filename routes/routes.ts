@@ -42,6 +42,9 @@ routes.get("/produtos", async(req,res)=>{
         relations: {
             categoria: true
         }
-    })
-})
+    });
+    return res.json(produtos)
+});
+
+export default routes;
 
